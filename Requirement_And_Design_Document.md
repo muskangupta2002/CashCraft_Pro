@@ -1,7 +1,7 @@
-# Requirement Document for MERN Stack Expense Tracker Project
+# Requirement and Design Document 
 ## Introduction
 ### Purpose
-The purpose of this document is to outline the requirements for the development of an Expense Tracker application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application aims to provide users with a seamless and efficient way to track and manage their expenses.
+The purpose of this document is to outline the requirements for the development of an CashCraft Pro application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application aims to provide users with a seamless and efficient way to track and manage their expenses.
 
 ### Scope
 The Expense Tracker will allow users to record, categorize, and analyze their expenses. It will provide features for adding, updating, and deleting transactions, as well as generating insightful reports based on the recorded data.

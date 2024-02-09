@@ -25,8 +25,8 @@ Users should receive notifications for upcoming bills or reminders to log expens
 
 ## Non-functional Requirements
 ### Performance
-The application should respond to user interactions within 2 seconds.
-The system must handle concurrent users efficiently.
+- The application should respond to user interactions within 2 seconds.
+- The system must handle concurrent users efficiently.
 ### Security
 - User data must be encrypted both in transit and at rest.
 - Authorization mechanisms should be implemented to control access to specific features.
@@ -43,35 +43,28 @@ The MongoDB database will consist of collections for users, expenses, and catego
 
 ## Frontend Design
 ### React Components
-The application will be structured into components such as Login, Registration, Dashboard, ExpenseForm, ExpenseList, and Report.
+- The application will be structured into components such as Login, Registration, Dashboard, ExpenseForm, ExpenseList, and Report.
 
 ### State Management
-Redux will be implemented for state management to maintain a predictable and centralized state.
+- Redux will be implemented for state management to maintain a predictable and centralized state.
 
 ## Backend Design
 ### Express Routes
-RESTful API routes will be implemented for user authentication, expense management, and reporting.
+- RESTful API routes will be implemented for user authentication, expense management, and reporting.
 
 ### Middleware
-Middleware will be utilized for authentication, error handling, and logging.
+- Middleware will be utilized for authentication, error handling, and logging.
 
 ## Security Design
 ### Authentication
-JSON Web Tokens (JWT) will be used for secure user authentication.
+- JSON Web Tokens (JWT) will be used for secure user authentication.
 
 ### Encryption
-Sensitive data, such as user passwords, will be hashed using bcrypt before storage.
-
-## Testing
-### Unit Testing
-Jest and Enzyme will be used for unit testing React components, while Mocha and Chai will be employed for backend testing.
+- Sensitive data, such as user passwords, will be hashed using bcrypt before storage.
 
 ## Deployment
 ### Hosting
 The application will be deployed on a cloud platform such as AWS or Heroku.
-
-### Continuous Integration/Continuous Deployment (CI/CD)
-CI/CD pipelines will be set up to automate testing and deployment processes.
 
 # Conclusion
 This requirement and design document provides a comprehensive overview of the functionality and design considerations for the MERN Stack Expense Tracker project. The outlined specifications aim to ensure the development of a robust, scalable, and secure application that meets user expectations.

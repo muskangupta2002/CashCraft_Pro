@@ -75,3 +75,6 @@ CI/CD pipelines will be set up to automate testing and deployment processes.
 
 # Conclusion
 This requirement and design document provides a comprehensive overview of the functionality and design considerations for the MERN Stack Expense Tracker project. The outlined specifications aim to ensure the development of a robust, scalable, and secure application that meets user expectations.
+
+
+![alt text](CashCraft_Pro_UI_design.png)
